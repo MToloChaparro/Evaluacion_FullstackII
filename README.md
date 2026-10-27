@@ -1,26 +1,79 @@
-# React + Vite
+# Evaluación Parcial 2
+- Matias Toloza Chaparro
+- Ing. en Informatica - Duoc Uc Sede Maipú
+- Desarrollo Fullstack II - Sección 010D
+---
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Tabla de contenidos
 
-## Tienda Gamer
+1. [Frontend con framework JS moderno](#1--frontend-con-framework-js-moderno)
+2. [Pruebas unitarias (Jasmine + Karma)](#2--pruebas-unitarias-jasmine--karma)
+3. [Proceso de testeo unitario](#3--proceso-de-testeo-unitario)
+4. [Documentos requeridos del proyecto](#4--documentos-requeridos-del-proyecto)
+5. [Entregables](#5--entregables)
 
-Start the application from this directory with `npm install` (first run) and `npm run dev`. The React app includes the product catalog, product details, blog articles, demo contact form, customer profile, cart and demo checkout. The administration area is available at `/admin` and includes products, categories, users, orders, and reports. Legacy `.html` paths for the main shop pages are also routed to their React equivalents.
+---
 
-The images from the original `Tienda/assets/img` folder are copied into `public/images/legacy` and used by the React "Nosotros" and blog pages for banners, team portraits, and illustrations. Profile details, contact messages, catalog changes, product images (up to 1 MB per image), and demo orders are stored in the browser's `localStorage`. Login and checkout are simulations only: there is no server, secure authentication, or real payment processing. Do not enter real passwords or sensitive payment details. If browser storage runs out of space, the administration form reports that the product could not be saved.
+## 1. Frontend con framework JS moderno
 
-Run checks with `npm run lint`, `npm run build`, and `npm test`.
+Incorporar frontend basado en tecnología JS para la construcción de una aplicación web, integrando elementos de responsividad para el desarrollo de páginas web simples.  
+**Comprobar que el proyecto use un framework moderno de JavaScript, como React, y que esté bien estructurado.**
 
-The evaluation documents are in `docs/ERS.md` and `docs/COBERTURA-TESTING.md`. `npm test` runs the Jasmine/Karma suite and writes the HTML coverage report to `coverage/index.html`.
+- [ ] **a.** Revisar que los componentes React estén correctamente gestionados en cuanto a **propiedades y estados**, asegurando su funcionalidad y personalización.
+- [ ] **b.** Asegurar que el diseño del proyecto sea **responsivo**, adaptándose a diferentes tamaños de pantalla mediante el uso de **Bootstrap**.
+- [ ] **c.** Explicar cómo se utilizó un framework de JavaScript moderno para diseñar el proyecto frontend.
+- [ ] **d.** Mostrar el proceso de desarrollo de componentes React en el proyecto, detallando cómo se gestionan las propiedades y estados para asegurar un funcionamiento correcto y personalizado de la ampliación.
+- [ ] **e.** Explicar cómo se implementó el diseño responsivo utilizando Bootstrap y proporcionar ejemplos de su aplicación en diferentes dispositivos.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 2. Pruebas unitarias (Jasmine + Karma)
 
-## React Compiler
+Crear pruebas unitarias para los componentes **FRONT-END**, abarcando diferentes casos de uso, verificando la lógica y el comportamiento del componente, así como la manipulación del DOM, utilizando **Jasmine** y **Karma**.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- [ ] **a.** Comprobar que existan pruebas unitarias que validen las funciones clave y comportamientos de los componentes.
+- [ ] **b.** Demostrar la creación de pruebas unitarias para los componentes frontend utilizando Jasmine y Karma. Explicar cómo se verificó la lógica y el comportamiento para asegurar la calidad del código.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 3. Proceso de testeo unitario
+
+Implementar un proceso de testeo en el desarrollo de software, a través de pruebas unitarias para el **FRONT-END**, abordando los conceptos clave del proceso de testeo.
+
+- [ ] **a.** Asegurar que se hayan configurado las herramientas de testeo adecuadas y que las pruebas cubran las funcionalidades principales.
+- [ ] **b.** Explicar cómo se implementó un proceso de testeo unitario en el proyecto frontend. Detallar los conceptos clave aplicados: **configuración del entorno de pruebas**, **escritura de pruebas unitarias**, **uso de mocks** y **análisis de resultados**.
+
+---
+
+## 4. Documentos requeridos del proyecto
+
+| # | Documento | Descripción | Estado |
+|---|-----------|-------------|:------:|
+| a | **ERS** — Especificación de Requisitos del Software | Entregar documento añadiendo la propuesta personalizada, última versión. | ⬜ |
+| b | **Cobertura de testing** | Debe validar el alcance de los elementos cubiertos en el testing. | ⬜ |
+
+---
+
+## 5. Entregables
+
+| # | Entregable | Formato | Estado |
+|---|------------|---------|:------:|
+| 1 | Enlace GitHub público del proyecto frontend actualizado | 🔗 URL | ⬜ |
+| 2 | Proyecto frontend actualizado comprimido | 🗜️ `.zip` | ⬜ |
+| 3 | Documento ERS (propuesta terminada) | 📄 PDF/DOCX | ⬜ |
+| 4 | Documento de cobertura de testing | 📄 PDF/DOCX | ⬜ |
+
+---
+
+## Enlaces rápidos
+
+- **Repositorio GitHub:** `<https://github.com/usuario/proyecto-frontend>`
+- **Proyecto comprimido:** `<enlace o ruta>`
+- **Documento ERS:** `<enlace o ruta>`
+- **Cobertura de testing:** `<enlace o ruta>`
+
+---
+
+<p align="center">
+  <sub>📌 Documento de trabajo — Situación Evaluativa 1 · Entrega por encargo</sub>
+</p>
