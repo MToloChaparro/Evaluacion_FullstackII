@@ -58,8 +58,8 @@ Implementar un proceso de testeo en el desarrollo de software, a través de prue
 
 | # | Entregable | Formato |
 |---|------------|---------|
-| 1 | Enlace GitHub público del proyecto frontend actualizado.
-| 2 | Proyecto frontend actualizado comprimido.
-| 3 | Documento ERS (propuesta terminada).
-| 4 | Documento de cobertura de testing.
+| 1 | Enlace GitHub público del proyecto frontend actualizado. Link
+| 2 | Proyecto frontend actualizado comprimido. .rar
+| 3 | Documento ERS (propuesta terminada). .doc
+| 4 | Documento de cobertura de testing. .doc
 
